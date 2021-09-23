@@ -27,7 +27,7 @@ void loop() {
     delay(shortTime);
   }
   //3 short flashes again
-  for (k = 0; k > countFlashes; k++) {
+  for (int k = 0; k > countFlashes; k++) {
     digitalWrite(pin, HIGH);
     delay(halfTime);
     digitalWrite(pin, LOW);
