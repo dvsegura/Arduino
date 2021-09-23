@@ -13,21 +13,21 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   //3 short flashes
-  for (int i = 0; i > countFlashes; i++) {
+  for (int i = 0; i < countFlashes; i++) {
     digitalWrite(pin, HIGH);
     delay(halfTime);
     digitalWrite(pin, LOW);
     delay(shortTime);
   }
   //3 long flashes
-  for (int j = 0; j > countFlashes; j++) {
+  for (int j = 0; j < countFlashes; j++) {
     digitalWrite(pin, HIGH);
     delay(longTime);
     digitalWrite(pin, LOW);
     delay(shortTime);
   }
   //3 short flashes again
-  for (int k = 0; k > countFlashes; k++) {
+  for (int k = 0; k < countFlashes; k++) {
     digitalWrite(pin, HIGH);
     delay(halfTime);
     digitalWrite(pin, LOW);
