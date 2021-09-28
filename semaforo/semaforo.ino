@@ -15,3 +15,4 @@ void loop() {
     digitalWrite(leds[i], LOW);
   }
 }
+// v.2 timers
