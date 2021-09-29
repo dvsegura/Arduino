@@ -1,9 +1,9 @@
 #include <DHT.h>
 #include <DHT_U.h>
 
-int SENSOR = 2;
-int TEMPERATURA;
-int HUMEDAD;
+#define SENSOR  2
+float TEMPERATURA;
+float HUMEDAD;
 
 DHT dht(SENSOR, DHT22);
 void setup() {
