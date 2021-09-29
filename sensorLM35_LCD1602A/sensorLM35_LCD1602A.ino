@@ -5,6 +5,7 @@ float TEMPERATURA;
 float SUMA;
 
 void setup() {
+  //Serial.begin(9600);
   lcd.begin(16, 2);
   // las entradas analógicas no necesitan inicialización
 }
