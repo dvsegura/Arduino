@@ -15,6 +15,5 @@ void loop() {
     SUMA += TEMPERATURA;
     delay(500);
   }
-  Serial.println(TEMPERATURA / 5.0, 1); // 1 posición decimal ( 1 dígito depués de la coma)
-  delay(1000);
+  Serial.println(TEMPERATURA / 5.0, 1); // 1 posición decimal ( 1 dígito depués de la coma)  
 }
