@@ -1,0 +1,7 @@
+Aprende Electrónica con Arduino. Jody Culkin y Eric Hagan
+sketches: github.com/arduinotogo/LEA
+
+
+simulador : https://www.tinkercad.com/ 
+
+https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html
