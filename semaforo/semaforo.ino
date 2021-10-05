@@ -1,18 +1,24 @@
-int leds [] = {13, 12, 11};
+int rojo = 13;
+int amarillo = 12;
+int verde = 11;
 
 void setup() {
-  // put your setup code here, to run once:
-  for (int i = 0; i < 3; i++) {
-    pinMode(leds[i], OUTPUT);
-  }
+  pinMode(rojo, OUTPUT);
+  pinMode(amarillo, OUTPUT);
+  pinMode(verde, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  for (int i = 0; i < 3; i++) {
-    digitalWrite(leds[i], HIGH);
-    delay(5000);
-    digitalWrite(leds[i], LOW);
-  }
+  digitalWrite(rojo, HIGH);
+  delay(5000);
+  digitalWrite(rojo, LOW);
+  digitalWrite(amarillo, HIGH);
+  delay(5000);
+  digitalWrite(amarillo, LOW);
+  digitalWrite(verde, HIGH);
+  delay(5000);
+  digitalWrite(verde, LOW);
+  digitalWrite(amarillo, HIGH);
+  delay(5000);
+  digitalWrite(amarillo, LOW);
 }
-// v.2 timers
