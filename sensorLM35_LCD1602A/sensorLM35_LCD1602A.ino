@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   SUMA = 0;
-  for (int i = 0; i < 5; i++) {  //para sensores analogicos es recomendable usar promedios de los valores de lectura
+  for (int i = 0; i < 5; i++) {  //para sensores analógicos es recomendable usar promedios de los valores de lectura
     SENSOR = analogRead(A0);
     TEMPERATURA = ((SENSOR * 5000.0) / 1023) / 10; //5000.0 para no perder la parte de la fracción
     SUMA += TEMPERATURA;
@@ -22,5 +22,5 @@ void loop() {
   lcd.setCursor(0, 0);
   lcd.print("Temp: ");
   lcd.print(SUMA / 5.0, 1);
-  lcd.print(" C");
+  lcd.print(" C");  
 }
