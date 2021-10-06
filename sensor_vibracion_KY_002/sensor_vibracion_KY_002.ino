@@ -10,7 +10,7 @@ void setup() {
 void loop() {
   ESTADO = digitalRead(SENSOR);
   //digitalWrite(LED, !ESTADO);
-  if (ESTADO == LOW) {
+  if (ESTADO == LOW) { // se ha detectado una vibracion 
     digitalWrite(LED, HIGH);
     delay(500);
   }
