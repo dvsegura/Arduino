@@ -43,7 +43,7 @@ void loop() {
     digitalWrite(verde, LOW);
     digitalWrite(amarillo, HIGH);
     tiempoPrevio = millis();
-    while (millis() - tiempoPrevio < 5000) {}
+    while (millis() - tiempoPrevio < 5000 && digitalRead(pulsador)== HIGH) {}
     digitalWrite(amarillo , LOW);
   }
 }
