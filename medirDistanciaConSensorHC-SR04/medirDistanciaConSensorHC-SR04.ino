@@ -12,7 +12,7 @@ Por tanto, podemos obtener la distancia a partir del tiempo entre la emisión y 
 distancia = tiempo * velocidad / 2
 entre 2 es porque hemos medido el tiempo que tarda el pulso en ir y volver, por lo que la distancia recorrida por el pulso es el doble de la que queremos medir. 
 
-
+TINKERCAD https://www.tinkercad.com/things/gwRpyCm9spB 
 */
 
 #include <NewPing.h>
