@@ -1,5 +1,5 @@
 /*
-Comprobación interruptor de inclinación y reed 
+  Comprobación interruptor de inclinación y reed
   => Interruptor de inclinación (tilt switch)
   => Interruptor de lengueta (Reed switch)
   Conexionando cada sensor con un led, uso de resistencia pull-down
