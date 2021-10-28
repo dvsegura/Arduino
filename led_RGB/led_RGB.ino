@@ -31,6 +31,6 @@ void loop() {
   digitalWrite(ledRed, HIGH); //añadimos el rojo -> amarillo
   delay(retardo);
 
-  digitalWrite(ledBlue, HIGH);
+  digitalWrite(ledBlue, HIGH); // añadimos azul -> blanco
   delay(retardo);
 }
