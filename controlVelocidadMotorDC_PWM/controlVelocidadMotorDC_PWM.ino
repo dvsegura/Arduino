@@ -1,4 +1,4 @@
-/*varia la velocidad de motor con dos pulsadores*/
+/*Varia la velocidad de motor con dos pulsadores*/
 int motor =  5;
 int pulsadorSubir = 2;
 int pulsadorBajar = 3;
@@ -15,7 +15,7 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // resistencia pull-up pulsado => LOW
   if (digitalRead(pulsadorSubir) == LOW && digitalRead(pulsadorBajar) == HIGH) {
     if (velocidad < 255) {
       velocidad += 15;
