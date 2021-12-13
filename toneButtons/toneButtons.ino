@@ -1,4 +1,4 @@
-/* instrumneto, tocar una nota determinada al pulsar un determinado pulsador momentaneo*/
+/* instrumneto, tocar una nota determinada al pulsar un determinado pulsador momentaneo: sando funcion tone(pin, frecuencia(Hertz))*/
 const int buttonPin = 2;
 const int buttonPin2 = 3;
 const int buttonPin3 = 4;
